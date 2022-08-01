@@ -6,10 +6,10 @@
 API Rest desenvolvida em java, com o framework spring, o objetivo é gerenciar cadastros de pessoas,
 a API possue os metodos HTTP: GET, PUT, POST E DELETE.
 
-## GET (/pessoas)
+### GET (/pessoas)
 Este método retorna um array de objetos json de pessoas cadastradas.
 
-## POST (/pessoa/cadastrar)
+### POST (/pessoa/cadastrar)
 Este método retorna o objeto json criado, deve-se inserir uma requestBody.
 exemplo:
 {
@@ -23,7 +23,7 @@ exemplo:
     }
 }
 
-## PUT (/pessoa/{id})
+### PUT (/pessoa/{id})
 Este método retorna o objeto atualizado. 
 Exemplo:
 {
@@ -37,7 +37,7 @@ Exemplo:
     }
 }
 
-## DELETE (/pessoa/{id})
+### DELETE (/pessoa/{id})
 Este metodo deleta da base de dados um registro do id informado na requestBody.
 Exemplo:
 {
